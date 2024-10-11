@@ -8,6 +8,10 @@ Además crea un sensor que calcula los costes fijos diarios (potencia, alquiler 
 
 ## Instalación
 
+### Directa usando _My Home Assistant_
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=miguelangellv&repository=tarifa_20td&category=integration)
+
+## Manual
 Puedes instalar el componente usando HACS, para ello basta con añadir este repositorio a los repositorios personalizados y buscarlo escribiendo «Tarifa».
 
 ## Configuración
@@ -33,6 +37,9 @@ los costes totales_ seleccionando _Costes Fijos Totales_, de esta forma cada dí
 
 Además, el sensor `sensor.precio_kWh` dispone del atributo «Period» con el periodo actual (P1 = punta, P2 = llana, P3 = valle para el caso de 2.0, o de P1 a P6 para 3.0),
 que puede utilizarse para automatizaciones.
+
+## Videotutorial
+[![Videotutorial](https://img.youtube.com/vi/BdZdz-7Du_Q/0.jpg)](https://www.youtube.com/watch?v=BdZdz-7Du_Q "Videotutorial")
 
 ## Balance Neto
 
